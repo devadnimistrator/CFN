@@ -1,0 +1,10 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$lang["RFC"] = "RFC";
+$lang["Street"] = "Dirección";
+$lang["Street Number"] = "Número";
+$lang["Suburb"] = "Colonia";
+$lang["State"] = "Estado";
+$lang["City"] = "Ciudad";
+$lang["Zipcode"] = "C.P.";
+$lang["Country"] = "País";
+$lang["Telphone"] = "Teléfono";

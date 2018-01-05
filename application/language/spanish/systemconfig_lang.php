@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang["System Configuration"] = "Configuración del sistema";
+$lang["Please configuration for system."] = "Please configuration for system.";
+$lang["Site Title"] = "Título del sitio";
+$lang["Contact Email"] = "Email";
+$lang["Contact Phone"] = "Teléfono";
+$lang["Contact Street"] = "Dirección";
+$lang["Location Configuration"] = "Configuración de ubicación";
+$lang["Country"] = "País";
+$lang["Mexico"] = "México";
+$lang["United States"] = "Estados Unidos de América";
+$lang["Language"] = "Idioma";
+$lang["Currency"] = "Moneda";
+$lang["MXN"] = "MXN";
+$lang["USD"] = "USD";
+$lang["Add New Method"] = "Agregar método";
+$lang["Bank Account"] = "Cuenta bancaria";
+$lang["Edit Method"] = "Editar método";
+$lang["Changed system configurations."] = "Cambios actualizados.";
+$lang["Receipt Email Template"] = "Plantilla de correo electrónico de recibo";
+$lang["Header"] = "Encabezamiento";
+$lang["Example"] = "Ejemplo";
+$lang["Footer1"] = "Fútbol1";
+$lang["Footer2"] = "Fútbol2";
+$lang["Import"] = "Importar";
+$lang["Successfully updated method."] = "Método actualizado correctamente.";
+$lang["Nuevo método agregado con éxito."] = "Successfully added new method.";
+$lang["Successfully deleted method."] = "Método eliminado correctamente.";
+$lang["Discount"] = "Descuento";
+$lang["Reminder Date"] = "Día para envío de recordatorio";

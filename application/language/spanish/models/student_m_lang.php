@@ -1,0 +1,13 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$lang["Name"] = "Nombre";
+$lang["First Name"] = "Nombre(s)";
+$lang["Last Name"] = "Apellidos";
+$lang["Phone Number"] = "Teléfono";
+$lang["Cell Phone"] = "Celular";
+$lang["Address"] = "Dirección";
+$lang["City"] = "Ciudad";
+$lang["State"] = "Estado";
+$lang["Zipcode"] = "C.P.";
+$lang["Company Name"] = "Razón social";
+$lang["Tax Payer Number"] = "RFC";
+$lang["Invoice Email"] = "Email para Facturación";

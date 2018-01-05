@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+#ui-datepicker-div {
+  margin-top: 10px;
+}
+
+#ui-datepicker-div.ui-datepicker-up-position {
+  margin-top: -10px;
+}
+
+#ui-datepicker-div:before,
+#ui-datepicker-div:after{
+  position: absolute;
+  border: solid transparent;
+  border-collapse: initial !important;
+  content: " ";
+  height: 0 !important;
+  width: 0 !important;
+  pointer-events: none;
+  bottom: 100%;
+  left: 30px;
+}
+
+#ui-datepicker-div.ui-datepicker-up-position:before,
+#ui-datepicker-div.ui-datepicker-up-position:after {
+  top: 100%;
+  border-bottom: none;
+}
+
+#ui-datepicker-div:before {
+  border-bottom-color: #C5C5C5;
+  border-width: 8px 10px;
+  margin-left: -10px;
+}
+
+#ui-datepicker-div.ui-datepicker-up-position:before {
+  border-top-color: #C5C5C5;
+  border-width: 8px 10px;
+  margin-left: -10px;
+}
+
+#ui-datepicker-div:after {
+  border-bottom-color: #FFF;
+  border-width: 7px 9px;
+  margin-left: -9px;
+}
+
+#ui-datepicker-div.ui-datepicker-up-position:after {
+  border-top-color: #FFF;
+  border-width: 7px 9px;
+  margin-left: -9px;
+}
+
+
+.ui-datepicker-calendar tbody tr td.ui-datepicker-current-day,
+.ui-datepicker-calendar tbody tr td.ui-datepicker-days-cell-over{
+  background: #ffffff none repeat scroll 0 0 !important;
+}
+
+.ui-datepicker-calendar tbody tr td.ui-datepicker-today .ui-state-default {
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.ui-datepicker-calendar tbody tr td.date-range-selected {
+  opacity: 1 !important;
+  background: #33c4f2 none repeat scroll 0 0 !important;
+  color: #fff !important;
+}
+
+.ui-datepicker-calendar tbody tr td.date-range-selected .ui-state-default {
+  color: #fff !important;
+}
+
+.ui-datepicker-calendar tbody tr td.date-range-selected.date-range-from {
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.ui-datepicker-calendar tbody tr td.date-range-selected.date-range-end {
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+.ui-datepicker-calendar tbody tr td.date-pickup .ui-state-default,
+.ui-datepicker-calendar tbody tr td.date-dropoff .ui-state-default {
+  position: relative;
+}
+
+.ui-datepicker-calendar tbody tr td.date-pickup .ui-state-default:before {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(30, 136, 229, 0.4);
+  content: " ";
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
+}
+
+.ui-datepicker-calendar tbody tr td.date-pickup .ui-state-default:after {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: rgba(30, 136, 229, 0.4);
+  content: " ";
+}
+
+.ui-datepicker-calendar tbody tr td.date-dropoff .ui-state-default:before {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(30, 136, 229, 0.4);
+  content: " ";
+}
+
+.ui-datepicker-calendar tbody tr td.date-dropoff .ui-state-default:after {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: rgba(30, 136, 229, 0.4);
+  content: " ";
+  border-bottom-right-radius: 2em;
+  border-top-right-radius: 2em;
+}

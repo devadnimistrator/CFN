@@ -1,0 +1,12 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$lang["Payment"] = "Pago";
+$lang["Time"] = "Fecha";
+$lang["Before_amount"] = "Monto anterior";
+$lang["Amount"] = "Monto";
+$lang["Discount_type"] = "Tipo de descuento";
+$lang["Discount"] = "Descuento";
+$lang["Reason_type"] = "Tipo";
+$lang["Description"] = "Descripción";
+$lang["Detail_id"] = "ID de detalle";
+$lang["Reason"] = "Razón";
+$lang["Paid_amount"] = "Paid_amount";

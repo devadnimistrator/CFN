@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^assets/(.*) - [NC,L]
+RewriteRule ^uploads/(.*) - [NC,L]
+RewriteRule ^temp/(.*) - [NC,L]
+RewriteRule favicon.ico - [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]

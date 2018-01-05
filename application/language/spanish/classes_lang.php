@@ -1,0 +1,35 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang["Last 7 Days"] = "Últimos 7 días";
+$lang["Last 30 Days"] = "Últimos 30 días";
+$lang["Last Month"] = "Último mes";
+$lang["Last Year"] = "Último año";
+$lang["Add New Class"] = "Agregar programa";
+$lang["Plan"] = "Programado";
+$lang["Running"] = "En curso";
+$lang["End"] = "Finalizado";
+$lang["Start"] = "Inicio";
+$lang["Description"] = "Descripción";
+$lang["Search by Reason"] = "Buscar";
+$lang["Are you sure delete selected class?"] = "¿Estás seguro de eliminar el programa?";
+$lang["Steps: "] = "Mensualidades: ";
+$lang["Students: "] = "Estudiantes: ";
+$lang["Chooise Product"] = "Elegir programa";
+$lang["Payment Information"] = "Información de pago";
+$lang["Cost"] = "Costo";
+$lang["Due Date"] = "Día de pago";
+$lang["Remove"] = "Eliminar";
+$lang["Edit Class"] = "Editar Clase";
+$lang["Schedule"] = "Programar";
+$lang["Add Cost"] = "Añadir Costo";
+$lang["Total Paid(%s)"] = "Total pagado (%s)";
+$lang["Chooise Student"] = "Elegir estudiante";
+$lang["Payment Histories"] = "Historial de Pago";
+$lang["Amount"] = "Cantidad";
+$lang["Are you sure delete selected step?"] = "¿Estás seguro de eliminar el pago seleccionado?";
+$lang["Are you sure delete selected student from this class?"] = "¿Estás seguro de eliminar al estudiante de este programa?";
+$lang["Successfully added new class."] = "Se agregó un nuevo programa con éxito.";
+$lang["Successfully updated class."] = "Programa actualizado con éxito.";
+$lang["Desahuciar"] = "Dar de alta";
+$lang["Sostener"] = "Dar de baja";

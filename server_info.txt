@@ -1,0 +1,13 @@
+CFN project
+
+Create your FTP accont:
+server = foodnfuel.us
+user = wenzhe@foodnfuel.us
+password = Difpov49fvP
+
+To access the system will be:
+http://foodnfuel.us/invoice/
+
+database: foodnfue_invoice
+username: foodnfue_invoice
+password: foodnfue_invoice
